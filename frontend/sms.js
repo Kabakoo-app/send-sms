@@ -52,7 +52,7 @@ const ButtonComponent = (props) => {
     }
 
      function getToken(){
-      fetch("https://glacial-meadow-48415.herokuapp.com/function.php") 
+      fetch("https://centrale-ruddy.vercel.app/orange_api/get_token/") 
         .then(res => res.json())
         .then(res => {
         if (res) {
